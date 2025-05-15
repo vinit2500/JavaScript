@@ -1,6 +1,3 @@
-//global memory ke andr create hoga
-const fruits = ["banana", "apple", "peach", "mango", "graphes"];
-
 // for(fruit of fruits) {
 //     console.log(fruit);
 // }
@@ -33,16 +30,15 @@ const person = {
 //     console.log(letter);
 // }
 
-//thoda tha heavy hota hai 
+//thoda tha heavy hota hai
 // for (const key in person) {
 //   console.log(key, " ", person[key]);
 // }
 
-
 //faster than above approach to traverse object
-const personKeys = Object.keys(person)
-const personvalues = Object.values(person)
-const personEntries = Object.entries(person)
-for(const key of personKeys) {
-    console.log(key);
+const personKeys = Object.keys(person);
+const personvalues = Object.values(person);
+const personEntries = Object.entries(person);
+for (const key of personKeys) {
+  console.log(key);
 }
